@@ -1,0 +1,32 @@
+.container{
+  width: 100%;
+  min-height: 800px;
+}
+
+.container h1{
+  text-align: center;
+}
+.content{
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: auto;
+}
+
+.card{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 10px;
+  border: 1px solid gray;
+}
+
+.card .title{
+  padding-left: 10px;
+}
+
+.content-detail{
+  width: 80%;
+  margin: auto;
+  padding-bottom: 40px;
+}
